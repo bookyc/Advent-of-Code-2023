@@ -25,7 +25,7 @@ def do_stuff(games) -> int:
         sum_cubes += (highest_red * highest_green * highest_blue)
     return sum_cubes
 
-file = open("day_two_input.txt","r")
+file = open("day-2/day_two_input.txt","r")
 input = []
 for line in file:
     input.append(line)

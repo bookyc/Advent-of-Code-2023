@@ -29,7 +29,7 @@ def do_stuff(games) -> int:
         
     
 
-file = open("day_two_input.txt","r")
+file = open("day-2/day_two_input.txt","r")
 input = []
 for line in file:
     input.append(line)
